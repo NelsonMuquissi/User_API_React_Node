@@ -44,7 +44,7 @@ function Home() {
   return (
     <div className="container">
       <form>
-        <h1>Cadastro de Usuarios</h1>
+        <h1>Cadastro de Usuários</h1>
         <input name="nome" placeholder="Nome do usuario" type="text" ref={inputName}/>
         <input name="email" placeholder="Email do usuario" type="email" ref={inputEmail} />
         <input name="idade" placeholder="Idade do usuario" type="number" ref={inputIdade} />
